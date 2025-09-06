@@ -1,0 +1,1 @@
+export const achievements:{title:string;note?:string;date?:string}[]=[{title:'Winner — Student Research Competition, NMIMS',date:'2024'},{title:'Best Research Paper — 6th ICRTAC 2023 (IEEE)',date:'2023'},{title:'Meritorious Student — MPSTME, NMIMS',date:'2024'}];

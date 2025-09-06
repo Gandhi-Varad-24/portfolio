@@ -1,0 +1,1 @@
+export default function SkillMeter({level}:{level:number}){const pct=Math.max(0,Math.min(100,level));return(<div className='skill-bar' role='progressbar' aria-valuenow={pct} aria-valuemin={0} aria-valuemax={100}><div className='skill-fill' style={{width:`${pct}%`}}/></div>)}

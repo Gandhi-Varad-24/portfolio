@@ -1,0 +1,1 @@
+export function Section({title,subtitle,children}:{title:string;subtitle?:string;children:React.ReactNode}){return(<section className='container py-12'><div className='mb-6'><h2 className='section-title'>{title}</h2>{subtitle&&<p className='muted mt-2'>{subtitle}</p>}</div>{children}</section>)}

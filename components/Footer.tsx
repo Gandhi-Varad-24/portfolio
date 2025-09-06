@@ -1,0 +1,1 @@
+export default function Footer(){return(<footer className='mt-16 border-t border-white/10'><div className='container py-10 text-center text-white/60 text-sm'>© 2025 Varad Gandhi — Built with Next.js & Tailwind.</div></footer>)}
