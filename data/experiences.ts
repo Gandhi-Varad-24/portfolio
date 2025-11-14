@@ -12,6 +12,33 @@ export type Experience = {
 
 export const experiences: Experience[] = [
   {
+    slug: "idx-2025-contract",
+    company: "IDX Insights",
+    role: "Quant Projects Analyst – Contract",
+    location: "San Ramon, CA",
+    start: "Sep 2025",
+    end: "Present",
+    summary:
+      "Engineered GPT-based research agents and a high-frequency BTC forecasting engine for BTDIX, automating equity research workflows and improving short-horizon signal quality.",
+    projects: [
+      {
+        title: "GPT-based AI Agents for Market Risk & Equity Research",
+        description:
+          "Designed and implemented GPT-based agents for market risk forecasting and company-level financial analysis. The agents retrieve filings, transcripts, and market data to generate structured equity research reports covering business performance, debt profile, valuation view, and risk commentary.",
+        impact:
+          "Reduced manual analyst effort by 3+ hours per company by automating first-draft research and standardizing report structure."
+      },
+      {
+        title: "High-Frequency BTC Forecast Engine for Bitcoin ETF Strategic Fund (BTDIX)",
+        description:
+          "Built a high-frequency BTC forecasting pipeline using 1-minute CoinAPI data. Engineered 40+ microstructure and volatility features, tested multiple ensemble models (including gradient boosting and Random Forest), and used walk-forward validation to evaluate 15-minute directional prediction performance.",
+        impact:
+          "Selected a Random Forest model that improved 15-minute directional AUC by ~12% out-of-sample, enhancing signal quality for BTDIX trading decisions."
+      }
+    ]
+  },
+
+  {
     slug: "idx-2025",
     company: "IDX",
     role: "Intern, Quant Research and Technology",
@@ -37,6 +64,7 @@ export const experiences: Experience[] = [
       }
     ]
   },
+
   {
     slug: "nomura-2023",
     company: "Nomura Structured Finance Services",
@@ -69,6 +97,7 @@ export const experiences: Experience[] = [
       }
     ]
   },
+
   {
     slug: "ibm-pheme-2022",
     company: "IBM Pheme Soft",
