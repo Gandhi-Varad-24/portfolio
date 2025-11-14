@@ -5,12 +5,12 @@ export type Project = {
   title: string;
   summary: string;
   tags: string[];
-  category: string;
+  category: string;  // 👈 add this line
   details: { description: string; impact: string }[];
   links?: {
     demo?: string;
     code?: string;
-    report?: string; // e.g. "/reports/<slug>.pdf" (served inline)
+    report?: string; // e.g. "/reports/<slug>.pdf"
     nda?: boolean;   // true => show NDA lock instead of links
   };
   kpis?: { label: string; value: string; delta?: string }[];
