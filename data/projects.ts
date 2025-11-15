@@ -503,7 +503,7 @@ export const projects: Project[] = [
           "Delivered a clear view of sector health and identified relatively stronger and weaker names."
       }
     ],
-    links: { nda: true },
+    links: { report: "/reports/textile-analysis-report.pdf" },
     kpis: [
       { label: "Companies", value: "Multi-name" },
       { label: "Ratios", value: "Full set" },
@@ -525,7 +525,7 @@ export const projects: Project[] = [
           "Identified key drivers of high ratings and improved model fit for classification of likely high-rating apps."
       }
     ],
-    links: { nda: true },
+    links: { report: "/reports/google-playstore-analytics.pdf" },
     kpis: [
       { label: "Apps analyzed", value: "7,723" },
       { label: "Accuracy", value: "≈78%" },
