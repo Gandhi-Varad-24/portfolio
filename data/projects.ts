@@ -174,7 +174,7 @@ export const projects: Project[] = [
           "Best LLM-inspired strategy achieved ~+140% cumulative returns with a maximum drawdown of ~34% on live-simulated S&P 500 ETF data."
       }
     ],
-    links: { nda: true },
+    links: { report: "/reports/llm-multi-agent-report.pdf" },
     kpis: [
       { label: "Cumulative return", value: "+140%" },
       { label: "Max DD", value: "34%" },
